@@ -23,7 +23,7 @@ const Login = () => {
     console.log(getuserArr);
 
     const { username, password } = inpval;
-    if (username === "" || password) {
+    if (username === "") {
       alert("username is required");
     } else if (password === "") {
       alert("password is required");
